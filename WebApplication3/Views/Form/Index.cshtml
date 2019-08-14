@@ -1,0 +1,543 @@
+﻿
+@{
+    ViewData["Title"] = "Form";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<main>
+    <section class="text-center " id="title">
+        <div class="title">
+            <h1>Forms</h1>
+            <h6>Inspiration comes of working every day.</h6>
+            <a href="https://localhost:44375/home">Home</a>
+            <span><i class="fas fa-chevron-right"></i></span>
+            <a href="#">Shortcodes</a> <span><i class="fas fa-chevron-right"></i></span>
+            <a href="#">Form</a>
+        </div>
+
+
+    </section>
+    <section id="forms">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="left-nav">
+                        <label>Elements</label>
+                        <ul>
+                            <li><a href="https://localhost:44375/accordion">Accordions</a> </li>
+                            <li><a href=""> Alerts</a></li>
+                            <li><a href="">Animations</a> </li>
+                            <li><a href="">Audio & Video</a></li>
+                            <li><a href="">Blockquotes</a> </li>
+                            <li><a href="">BS Notify<span class="badge badge-danger">NEW</span></a> </li>
+                            <li><a href="">Breadcrumbs</a> </li>
+                            <li><a href="https://localhost:44375/buttons">Buttons</a> </li>
+                            <li><a href="">Clients logos</a> </li>
+                            <li><a href=""> Call to action</a></li>
+                            <li><a href="">Carousel</a> </li>
+                            <li><a href="">Code</a> </li>
+                            <li><a href="">Countdown Timers</a> </li>
+                            <li><a href="">Countdown<span class="badge badge-danger">NEW</span></a> </li>
+                            <li><a href="">Counter Numbers</a> </li>
+                            <li><a href=""> Dropcat & Highlight</a></li>
+                            <li><a href=""> Dropdown<span class="badge badge-danger">NEW</span></a> </li>
+                            <li><a href="">Team members</a> </li>
+                            <li><a href=""> Grid System</a></li>
+                            <li><a href="">Icon Boxes</a> </li>
+                            <li><a href=""> Icons<span class="badge badge-danger">NEW</span></a> </li>
+                            <li><a href="https://localhost:44375/image">Images</a> </li>
+                            <li><a href="">Labels and Badges</a> </li>
+                            <li><a href="">Lightbox</a> </li>
+                            <li><a href="">Lists & Bullet lists</a> </li>
+                            <li><a href="">Modal</a> </li>
+                            <li><a href="">Modal Strip</a> </li>
+                            <li><a href="">Navbar & Navs</a> </li>
+                            <li><a href="">Pagination & Pager</a> </li>
+                            <li><a href="">Panels</a> </li>
+                            <li><a href="">Pie charts</a> </li>
+                            <li><a href="">Popover & tooltips</a> </li>
+                            <li><a href="">Pricing tables</a> </li>
+                            <li><a href="">Progress bars</a> </li>
+                            <li><a href="">Responsive utilities</a> </li>
+                            <li><a href=""> Sections</a></li>
+                            <li><a href="">Smooth Scrolling</a> </li>
+                            <li><a href="">Social Icons</a> </li>
+                            <li><a href="">Text Boxes</a> </li>
+                            <li><a href="">Tabs</a> </li>
+                            <li><a href=""> Testimonials</a></li>
+                            <li><a href="">Toggles</a> </li>
+                            <li><a href="">Typography</a> </li>
+                            <li><a href="">Text Rotator</a> </li>
+                        </ul>
+                        <label>Forms</label>
+                        <ul>
+                            <li><a href="https://localhost:44375/form">Form Elements</a> </li>
+                            <li><a href="">BS Switch<span class="badge badge-danger">NEW</span></a> </li>
+                            <li><a href=""> Clipboard<span class="badge badge-danger">NEW</span></a> </li>
+                            <li><a href="data-picker.html">Date & Time Pickers</a> </li>
+                            <li><a href=""> Range Slider<span class="badge badge-danger">NEW</span></a> </li>
+                            <li><a href="">Switch Toggle<span class="badge badge-danger">NEW</span></a> </li>
+                        </ul>
+                        <label>Charts</label>
+                        <ul>
+                            <li><a href="">ChartJS<span class="badge badge-danger">NEW</span></a> </li>
+                            <li><a href="">amCharts<span class="badge badge-danger">NEW</span></a> </li>
+                            <li><a href="">MorrisJS<span class="badge badge-danger">NEW</span></a> </li>
+                        </ul>
+                        <label>Calendar</label>
+                        <ul>
+                            <li><a href="">Calendar<span class="badge badge-danger">NEW</span></a> </li>
+                            <li><a href="">Google Calendar</a> </li>
+                            <li><a href="">List Calendar</a> </li>
+                        </ul>
+                        <label>Maps</label>
+                        <ul>
+                            <li><a href="">Google Maps</a> </li>
+                            <li><a href="">amChart Maps</a> </li>
+
+                        </ul>
+                        <label>Tables</label>
+                        <ul>
+                            <li><a href="https://localhost:44375/datatable"> Data Tables<span class="badge badge-danger">NEW</span></a></li>
+                            <li><a href=""> Basic</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="forms">
+
+
+                        <form>
+                            <h4>Form Controls</h4>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">EMAIL ADRESS</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                       placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Example select</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect2">Example multiple select</label>
+                                <select multiple class="form-control" id="exampleFormControlSelect2">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                            </div>
+
+                            <div class="form-group ">
+                                <label for="exampleFormControlFile1">Example file input</label>
+                                <input type="file" class="form-control-file border" id="exampleFormControlFile1">
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label for="exampleFormControlSelect1">INPUT & BUTTON GROUP</label>
+
+                                <div class="input-group mb-3">
+                                    <select class="custom-select" id="inputGroupSelect02">
+                                        <option selected>Line</option>
+                                        <option value="1">Bar</option>
+                                        <option value="2">Width</option>
+
+                                    </select>
+                                    <div class="input-group-append">
+                                        <label class="input-group-text" for="inputGroupSelect02">UPDATE</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+
+                        <hr>
+                        <div class="textual">
+                            <h4>Textual inputs</h4>
+                            <div class="row">
+                                <div class="col-2">
+                                    TEXT
+                                </div>
+                                <div class="col-10">
+                                    <input class="form-control" type="search" value="Artisanal kale"
+                                           id="example-text-input">
+                                </div>
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-2">SEARCH</div>
+                                <div class="col-10">
+                                    <input class="form-control" type="text" value="How do I shoot web"
+                                           id="example-text-input">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-2">EMAIL</div>
+                                <div class="col-10">
+                                    <input class="form-control" type="email" value="bootstrap@example.com"
+                                           id="example-text-input">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    URL
+                                </div>
+                                <div class="col-10">
+                                    <input class="form-control" type="url" value="https://getbootstrap.com"
+                                           id="example-text-input">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-2">TELEPHONE</div>
+                                <div class="col-10">
+                                    <input class="form-control" type="tel" value="1-(555)-555-5555"
+                                           id="example-text-input">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">PASSWORD</div>
+                                <div class="col-10">
+                                    <input class="form-control" type="password" value="hunter2"
+                                           id="example-text-input">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-2">NUMBER</div>
+                                <div class="col-10">
+                                    <input class="form-control" type="number" value="42"
+                                           id="example-text-input">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">DATE AND TIME</div>
+                                <div class="col-10">
+                                    <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00"
+                                           id="example-text-input">
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-2">DATE</div>
+                                <div class="col-10">
+                                    <input class="form-control" type="date" value="2011-08-19"
+                                           id="example-text-input">
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-2">MONTH</div>
+                                <div class="col-10">
+                                    <input class="form-control" type="month" value="2011-08"
+                                           id="example-text-input">
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-2">WEEK</div>
+                                <div class="col-10">
+                                    <input class="form-control" type="week" value="2011-W33"
+                                           id="example-text-input">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-2">TIME</div>
+                                <div class="col-10">
+                                    <input class="form-control" type="time" value="13:45:00"
+                                           id="example-text-input">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-2 color">COLOR</div>
+                                <div class="col-10">
+                                    <input class="form-control" type="color" value="#563d7c"
+                                           id="example-text-input">
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <hr>
+
+                        <div class="simple-form">
+                            <h4>Simple Form</h4>
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">EMAIL ADRESS</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter email">
+                                <small id="passwordHelpBlock" class="form-text text-muted">
+                                    We'll never share your email with anyone else.
+                                </small>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Password</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Password">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+                                    <label class="form-check-label" for="disabledFieldsetCheck">
+                                        Check me out
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                        <hr>
+
+                        <div class="addons-prepend">
+                            <h4>Addons Prepend & Append</h4>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1">%</span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="basic-addon2">%example.com</span>
+                                </div>
+                            </div>
+
+                            <label for="basic-url">Your vanity URL</label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                                </div>
+                                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">$</span>
+                                </div>
+                                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">.00</span>
+                                </div>
+                            </div>
+
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">With textarea</span>
+                                </div>
+                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="form-sizing">
+                            <h4>Form Sizing</h4>
+                            <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+                            <input class="form-control" type="text" placeholder="Default input">
+                            <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
+
+                            <input class="form-control" type="text" placeholder="Readonly input here..." readonly>
+
+                        </div>
+                        <hr>
+
+                        <div class="readonly">
+                            <h4>Readonly Plain Text</h4>
+                            <form class="form-inline">
+                                <div class="form-group mb-2">
+                                    <label for="staticEmail2" class="sr-only">Email</label>
+                                    <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+                                </div>
+                                <div class="form-group mx-sm-3 mb-2">
+                                    <label for="inputPassword2" class="sr-only">Password</label>
+                                    <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                                </div>
+                                <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+                            </form>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5>Stacked Checkboxes</h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Default checkbox
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+                                        <label class="form-check-label" for="defaultCheck2">
+                                            Disabled checkbox
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <h5>Stacked Radios</h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                        <label class="form-check-label" for="exampleRadios1">
+                                            Default radio
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                        <label class="form-check-label" for="exampleRadios2">
+                                            Second default radio
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+                                        <label class="form-check-label" for="exampleRadios3">
+                                            Disabled radio
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <hr>
+
+                        </div>
+
+                        <div class="form-grids">
+                            <h4>Forms using Grids</h4>
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputEmail4">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputPassword4">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress">Address</label>
+                                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress2">Address 2</label>
+                                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputCity">City</label>
+                                        <input type="text" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="inputState">State</label>
+                                        <select id="inputState" class="form-control">
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        <label for="inputZip">Zip</label>
+                                        <input type="text" class="form-control" id="inputZip">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            Check me out
+                                        </label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Sign in</button>
+                            </form>
+
+
+                            <hr>
+                        </div>
+
+                        <div class="horizontal-forms">
+                            <form>
+                                <h4>Horizontal Forms</h4>
+                                <div class="form-group row">
+                                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                    </div>
+                                </div>
+                                <fieldset class="form-group">
+                                    <div class="row">
+                                        <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                                        <div class="col-sm-10">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                                <label class="form-check-label" for="gridRadios1">
+                                                    First radio
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                                <label class="form-check-label" for="gridRadios2">
+                                                    Second radio
+                                                </label>
+                                            </div>
+                                            <div class="form-check disabled">
+                                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                                                <label class="form-check-label" for="gridRadios3">
+                                                    Third disabled radio
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <div class="form-group row">
+                                    <div class="col-sm-2">Checkbox</div>
+                                    <div class="col-sm-10">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                            <label class="form-check-label" for="gridCheck1">
+                                                Example checkbox
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-10">
+                                        <button type="submit" class="btn btn-primary">Sign in</button>
+                                    </div>
+                                </div>
+                            </form>
+
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+

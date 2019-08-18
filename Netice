@@ -1,0 +1,1 @@
+Startup file-da wwwroot-daki fayllari gore bilmesi uchun app.UseStaticFiles() yazmamishdin
